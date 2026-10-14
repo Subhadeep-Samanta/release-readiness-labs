@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-
   validate-release:
     runs-on: ubuntu-latest
     needs: deploy-production
