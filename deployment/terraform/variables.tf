@@ -1,4 +1,6 @@
 variable "aws_secret_key" {
+  description = "aws_secret_access_key"
   type    = string
-  default = "test-secret"
+  secitive = true
+  default = null
 }
